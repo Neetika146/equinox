@@ -398,7 +398,7 @@ section .container .company:after{
   section .container .request-details .time {
     flex-basis: 7.5%;
   }
-  section .container .request-details .company,{
+  section .container .request-details .company{
     flex-basis: 35%;
   }
   section .container .request-details .date,
@@ -453,7 +453,7 @@ section .container .request-details .booking-status {
   section .container .request-details .company {
     order: 5;
   }
-  section .container .request-details .date:after, {
+  section .container .request-details .date:after {
     display: none;
   }
   section .container .request-details .date,
@@ -463,7 +463,7 @@ section .container .request-details .company {
   }
 }
 @media (max-width: 1150px) {
-  section .container .request-details .company,{
+  section .container .request-details .company{
     flex-basis: 30%;
   }
 }
