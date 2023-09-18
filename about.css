@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
-
+body {
+  align-items: center;
+  background-color: #f2f2f2;
+  /* display: flex; */
+  font-family: "Merriweather", serif;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* height: 100vh; */
+  /* margin: 0; */
+}
 h1{
     text-align: center;
 }
@@ -7,7 +16,7 @@ h1{
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 280px;
+  /* width: 280px; */
 }
 .contain {
   border-radius: 50%;
@@ -84,7 +93,7 @@ h1{
 }
 .name {
   color: #404245;
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 600;
   margin-top: 16px;
   text-align: center;
@@ -115,6 +124,7 @@ h1{
 }
 
 .social a {
+  align-items: center;
 	margin: 5px 5px;
 }
 
